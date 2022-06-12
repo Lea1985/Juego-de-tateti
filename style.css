@@ -1,0 +1,86 @@
+.ficha {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    margin: 14px;
+    display: inline-block;
+    border-radius: 18px;
+    box-shadow: 10px 10px 24px -1px rgba(0, 0, 0, 0.52);
+    -webkit-box-shadow: 10px 10px 24px -1px rgba(0, 0, 0, 0.52);
+    -moz-box-shadow: 10px 10px 24px -1px rgba(0, 0, 0, 0.52);
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+i {
+    text-align: center;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+}
+
+.contenedor {
+    text-align: center;
+    /*alineado horizontal*/
+    padding-top: 5%;
+}
+
+table {
+    margin: 0px auto;
+    /*alineado horizontal*/
+}
+
+.fa-cat:before {
+    content: "\f6be";
+    font-size: 70px;
+}
+
+.fa-fish:before {
+    content: "\f578";
+    font-size: 70px;
+    color: darkorange;
+}
+
+#reset {
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 35px;
+    padding: 10px;
+    text-decoration: none;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    text-shadow: 1px 1px 3px #666666;
+    border: solid #d91c71 2px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#fc3f94), to(#fc0574));
+    background: -moz-linear-gradient(top, #fc3f94, #fc0574);
+    margin-top: 35px;
+    box-shadow: 10px 10px 24px -1px rgba(0, 0, 0, 0.52);
+    -webkit-box-shadow: 10px 10px 24px -1px rgba(0, 0, 0, 0.52);
+    -moz-box-shadow: 10px 10px 24px -1px rgba(0, 0, 0, 0.52);
+}
+
+#reset:hover {
+    background: #e62097;
+}
+
+.no-mostrar {
+    display: none;
+}
+
+.mostrar-msjVictoria {
+    display: block;
+}
+
+h1 {
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+}
